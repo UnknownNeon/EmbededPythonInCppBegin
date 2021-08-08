@@ -1,6 +1,14 @@
 #pragma once
 
 #define PY_SSIZE_T_CLEAN
+//include in the path of vs and link to python39.lib
+//if want to debug compile library from python.org to python39_d.lib
+//***********************************************************************************
+
+//to be in Release Mode
+
+//********************************************************************************
+
 #include "Python.h"
 #include <iostream>
 
