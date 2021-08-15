@@ -128,7 +128,7 @@ long callSpecificFunctionLong(const char* funcName, const char* fileNameWithoutP
         {
              opython pValue = PyObject_CallObject(fFunc, pArgs);
 
-             //dont start this faking debug sentance without knowing tje working!
+             //dont start this debug sentance without knowing tje working!
              //std::cout << PyUnicode_AsUTF8(param) << std::endl;
 
              return PyUnicode_AsUTF8(pValue);
